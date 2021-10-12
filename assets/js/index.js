@@ -156,3 +156,9 @@ document.ontouchstart = evt => birthday.onClick(evt)
   	
 
   })()
+
+  const btn = document.querySelector('.btn');
+
+  btn.addEventListener('click', ()=> {
+    btn.querySelector('p').innerHTML = "Mañana te toca el mejor regalo :)"
+  })
