@@ -44,6 +44,10 @@ h3 {
     
 }
 
+audio {
+    display: none;
+}
+
 .languages1 {
     position: absolute;
     width: 500px;
