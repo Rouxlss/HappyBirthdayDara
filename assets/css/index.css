@@ -102,6 +102,11 @@ audio {
     width: 18%;
     height: 30%;
     margin-bottom: 50px;
+    transition: .4s;
+}
+
+.imgs .img:hover {
+    opacity: 0;
 }
 
 .img video {
