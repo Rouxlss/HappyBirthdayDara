@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+    cursor: pointer;
+}
+
+
+canvas {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+h1 {
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'Great Vibes', cursive;
+}
+h3 {
+    z-index: 5;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+.languages1 {
+    position: absolute;
+    width: 500px;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
+    color: white;
+    writing-mode: tb-rl;
+    font-size: 70px;
+    z-index: 5;
+}
+
+.languages1 p { 
+    position: absolute;
+    bottom: 50px;
+}
+
+.languages2 {
+    position: absolute;
+    width: 500px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    color: white;
+    writing-mode: tb-rl;
+    font-size: 70px;
+    z-index: 5;
+}
+
+.languages2 p { 
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.imgs {
+    position: absolute;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.imgs .img {
+    width: 18%;
+    height: 30%;
+    margin-bottom: 50px;
+}
+
+.img video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
